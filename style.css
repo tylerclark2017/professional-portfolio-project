@@ -1,9 +1,65 @@
 * {
-    line-height: 125%;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif
     
-
 }
+
+header {
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(240, 237, 232);
+    color: black;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    padding: 10px;
+  }
+
+nav a {
+margin-right: 10px;
+text-decoration: none;
+color: #007bff;
+}
+
+body {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f3f3f3;
+  }
+
+h2 {
+ color:#d72d0f
+}
+
+.about-me {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.projects {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  
+  }
 
 .Headshot {
 
@@ -11,3 +67,134 @@ width: 300px;
 height: 200px; 
   
 }
+
+.skills {
+    width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.resume-cv {
+    width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-information {
+    width: 80%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+      }
+      .container {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      .sidebar {
+        display: none;
+      }
+      .section {
+        margin: 10px;
+        padding: 20px;
+      }
+}
+
+
+  article {
+    margin-bottom: 20px;
+    background-color: #f3f3f3;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .Projects a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .Projects a:hover {
+    text-decoration: underline;
+  }
+
+  .progress-bar {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    height: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .progress-1 {
+    background-color: #4caf50;
+    border-radius: 5px;
+    color: white;
+    height: 100%;
+    text-align: center;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .progress-2 {
+    background-color: #4c6aaf;
+    border-radius: 5px;
+    color: white;
+    height: 100%;
+    text-align: center;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .progress-3 {
+    background-color: #d72d0f;
+    border-radius: 5px;
+    color: white;
+    height: 100%;
+    text-align: center;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+  }
+
+  footer {
+    background-color: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+    height: 60px;
+    color:black;
+  }
+ 
+  
